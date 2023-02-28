@@ -1,0 +1,9 @@
+torch==1.11.0
+torchaudio==0.11.0
+speechbrain==0.5.13
+pyctcdecode==0.5.0
+transformers==4.17.0
+fastapi==0.92.0
+uvicorn==0.20.0
+python-multipart==0.0.5
+https://github.com/kpu/kenlm/archive/master.zip
