@@ -1,6 +1,12 @@
 venv
+
 .vscode
+__pycache__
+
 pretrain
 pretrained_models
+
 models
-__pycache__
+models.zip
+
+voice

@@ -66,5 +66,6 @@ class Speech_to_Text:
 if __name__ == "__main__":
     stt_model = Speech_to_Text()
     file_path = "example.mp3"
+    file_path = "voice/voice.wav"
     text, execution_time = stt_model.transcribe_file(file_path)
     print(text, execution_time)

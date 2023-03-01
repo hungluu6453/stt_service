@@ -1,1 +1,1 @@
-Speech to Text Service for Capstone Projects
+Speech to Text Service for Capstone Project
