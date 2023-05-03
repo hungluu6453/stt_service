@@ -3,7 +3,7 @@ import torchaudio
 import time
 from speechbrain.pretrained import EncoderASR
 from pyctcdecode import build_ctcdecoder
-from text_processing.inverse_normalize import InverseNormalizer
+# from text_processing.inverse_normalize import InverseNormalizer
 
 class Speech_to_Text:
     def __init__(self,  
@@ -16,7 +16,7 @@ class Speech_to_Text:
         self.model = EncoderASR.from_hparams(source=model_path,
                                   run_opts={"device": device}
                                   )
-        self.normalizer = InverseNormalizer('vi')
+        # self.normalizer = InverseNormalizer('vi')
         self.ngram_lm_model = self.get_decoder_ngram_model(self.model.tokenizer, self.lm_file, self.vocab_file)
 
     def get_decoder_ngram_model(self, tokenizer, ngram_lm_path, vocab_path=None):
