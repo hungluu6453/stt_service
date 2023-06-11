@@ -16,3 +16,4 @@ https://github.com/kpu/kenlm/archive/master.zip
 
 # Webm -> Wav
 pydub==0.25.1   # must install ffmpeg
+ffprobe
